@@ -19,7 +19,7 @@
 			<a class="btn btn-filled" href="https://skeleton.dev/" target="_blank" rel="noreferrer">Launch Documentation</a>
 		</div>
 		<div class="space-y-2">
-			<a href='#'>just a link</a>
+			<a href='/login'>just a link</a>
 			<p>Try editing the following:</p>
 			<p><code>/src/routes/+layout.svelte</code></p>
 			<p><code>/src/routes/+page.svelte</code></p>

@@ -8,3 +8,5 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+run_with_var.py
+__pycache__/createdb.cpython-39.pyc

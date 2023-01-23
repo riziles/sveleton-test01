@@ -4,7 +4,7 @@ bgcolor="transparent";
   newrank=true;
   splines = false
 
-  node [style="filled,rounded",color="#bdbdbd",fontsize="18pt"];
+  node [style="filled,rounded",color="#bdbdbd",fontsize="18pt",fontname="Arial"];
   edge [style=dashed,color="#5d5fb8"];
  
 {

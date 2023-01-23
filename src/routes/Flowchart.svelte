@@ -1,104 +1,242 @@
-<svg width="100%" height="100%"
- viewBox="0.00 0.00 247.00 333.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 329.6)">
-<title>G</title>
-<g id="clust3" class="cluster">
-<title>cluster_0</title>
-<polygon fill="#6388cc" stroke="#6388cc" points="8,-8 8,-317.6 134,-317.6 134,-8 8,-8"/>
-<text text-anchor="middle" x="71" y="-301" font-family="Times,serif" font-size="14.00" fill="#000000">Buddha&#39;s </text>
-<text text-anchor="middle" x="71" y="-284.2" font-family="Times,serif" font-size="14.00" fill="#000000"> Eightfold Path</text>
-</g>
-<g id="clust4" class="cluster">
-<title>cluster_1</title>
-<polygon fill="#4362a9" stroke="#4362a9" points="142,-8 142,-317.6 231,-317.6 231,-8 142,-8"/>
-<text text-anchor="middle" x="186.5" y="-301" font-family="Times,serif" font-size="14.00" fill="#000000">Eight Limbs </text>
-<text text-anchor="middle" x="186.5" y="-284.2" font-family="Times,serif" font-size="14.00" fill="#000000"> of Yoga</text>
-</g>
-<!-- a0 -->
-<g id="node1" class="node">
-<title>a0</title>
-<g id="a_node1"><a xlink:href="two-paths/b1" xlink:title="Sunflowers">
-<ellipse fill="none" stroke="#000000" cx="71" cy="-250" rx="55.0343" ry="18"/>
-<text text-anchor="middle" x="71" y="-245.8" font-family="Times,serif" font-size="14.00" fill="#000000">Sunflowers</text>
-</a>
-</g>
-</g>
-<!-- b1 -->
-<g id="node2" class="node">
-<title>b1</title>
-<ellipse fill="none" stroke="#000000" cx="177" cy="-178" rx="27" ry="18"/>
-<text text-anchor="middle" x="177" y="-173.8" font-family="Times,serif" font-size="14.00" fill="#000000">b1</text>
-</g>
-<!-- a0&#45;&#45;b1 -->
-<g id="edge1" class="edge">
-<title>a0&#45;&#45;b1</title>
-<path fill="none" stroke="#000000" d="M95.053,-233.6621C114.1109,-220.7171 140.372,-202.8794 157.9805,-190.9189"/>
-</g>
-<!-- a1 -->
-<g id="node4" class="node">
-<title>a1</title>
-<ellipse fill="#ffffff" stroke="#ffffff" cx="71" cy="-178" rx="27" ry="18"/>
-<text text-anchor="middle" x="71" y="-173.8" font-family="Times,serif" font-size="14.00" fill="#000000">a1</text>
-</g>
-<!-- a0&#45;&#45;a1 -->
-<g id="edge2" class="edge">
-<title>a0&#45;&#45;a1</title>
-<path fill="none" stroke="#000000" d="M71,-231.8314C71,-221 71,-207.2876 71,-196.4133"/>
-</g>
-<!-- b2 -->
-<g id="node7" class="node">
-<title>b2</title>
-<ellipse fill="#ffffff" stroke="#ffffff" cx="177" cy="-106" rx="27" ry="18"/>
-<text text-anchor="middle" x="177" y="-101.8" font-family="Times,serif" font-size="14.00" fill="#000000">b2</text>
-</g>
-<!-- b1&#45;&#45;b2 -->
-<g id="edge6" class="edge">
-<title>b1&#45;&#45;b2</title>
-<path fill="none" stroke="#000000" d="M177,-159.8314C177,-149 177,-135.2876 177,-124.4133"/>
-</g>
-<!-- b0 -->
-<g id="node3" class="node">
-<title>b0</title>
-<ellipse fill="none" stroke="#000000" cx="177" cy="-250" rx="27" ry="18"/>
-<text text-anchor="middle" x="177" y="-245.8" font-family="Times,serif" font-size="14.00" fill="#000000">b0</text>
-</g>
-<!-- b0&#45;&#45;b1 -->
-<g id="edge5" class="edge">
-<title>b0&#45;&#45;b1</title>
-<path fill="none" stroke="#000000" d="M177,-231.8314C177,-221 177,-207.2876 177,-196.4133"/>
-</g>
-<!-- a2 -->
-<g id="node5" class="node">
-<title>a2</title>
-<ellipse fill="#ffffff" stroke="#ffffff" cx="71" cy="-106" rx="27" ry="18"/>
-<text text-anchor="middle" x="71" y="-101.8" font-family="Times,serif" font-size="14.00" fill="#000000">a2</text>
-</g>
-<!-- a1&#45;&#45;a2 -->
-<g id="edge3" class="edge">
-<title>a1&#45;&#45;a2</title>
-<path fill="none" stroke="#000000" d="M71,-159.8314C71,-149 71,-135.2876 71,-124.4133"/>
-</g>
-<!-- a3 -->
-<g id="node6" class="node">
-<title>a3</title>
-<ellipse fill="#ffffff" stroke="#ffffff" cx="71" cy="-34" rx="27" ry="18"/>
-<text text-anchor="middle" x="71" y="-29.8" font-family="Times,serif" font-size="14.00" fill="#000000">a3</text>
-</g>
-<!-- a2&#45;&#45;a3 -->
-<g id="edge4" class="edge">
-<title>a2&#45;&#45;a3</title>
-<path fill="none" stroke="#000000" d="M71,-87.8314C71,-77 71,-63.2876 71,-52.4133"/>
-</g>
-<!-- b3 -->
-<g id="node8" class="node">
-<title>b3</title>
-<ellipse fill="#ffffff" stroke="#ffffff" cx="177" cy="-34" rx="27" ry="18"/>
-<text text-anchor="middle" x="177" y="-29.8" font-family="Times,serif" font-size="14.00" fill="#000000">b3</text>
-</g>
-<!-- b2&#45;&#45;b3 -->
-<g id="edge7" class="edge">
-<title>b2&#45;&#45;b3</title>
-<path fill="none" stroke="#000000" d="M177,-87.8314C177,-77 177,-63.2876 177,-52.4133"/>
-</g>
-</g>
-</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0.00 0.00 451.00 604.80">
+    <g id="graph0" class="graph" transform="translate(4,600.7999877929688) scale(1)" data-name="G">
+    
+    <g id="clust9" class="cluster" data-name="cluster_0">
+    
+    <polygon fill="#6388cc" stroke="#6388cc" points="8,-8 8,-588.8 190,-588.8 190,-8 8,-8" style=""/>
+    <text text-anchor="middle" x="99" y="-572.2" font-family="Times,serif" font-size="14.00" style="">Buddha's Eightfold Path</text>
+    </g>
+    <g id="clust10" class="cluster" data-name="cluster_1">
+    
+    <polygon fill="#cd96d9" stroke="#cd96d9" points="301,-8 301,-588.8 435,-588.8 435,-8 301,-8" style=""/>
+    <text text-anchor="middle" x="368" y="-572.2" font-family="Times,serif" font-size="14.00" style="">Eight Limbs of Yoga</text>
+    </g>
+    <!-- a0 -->
+    <g id="node1" class="node" pointer-events="visible" data-name="a0">
+    
+    <ellipse fill="white" stroke="white" cx="106" cy="-538" rx="68.91" ry="18" style=""/>
+    <text text-anchor="middle" x="106" y="-533.8" font-family="Times,serif" font-size="14.00" style="">Samyak Drusti</text>
+    </g>
+    <!-- a1 -->
+    <g id="node3" class="node" pointer-events="visible" data-name="a1">
+    
+    <ellipse fill="white" stroke="white" cx="99" cy="-466" rx="82.79" ry="18" style=""/>
+    <text text-anchor="middle" x="99" y="-461.8" font-family="Times,serif" font-size="14.00" style="">Samyak Samkalpa</text>
+    </g>
+    <!-- a0&#45;&#45;a1 -->
+    <g id="edge13" class="edge" data-name="a0--a1">
+    
+    <path fill="none" stroke="black" d="M104.27,-519.7C103.18,-508.85 101.79,-494.92 100.71,-484.1" style=""/>
+    </g>
+    <!-- b1 -->
+    <g id="node4" class="node" pointer-events="visible" data-name="b1">
+    
+    <ellipse fill="white" stroke="white" cx="359" cy="-466" rx="45.23" ry="18" style=""/>
+    <text text-anchor="middle" x="359" y="-461.8" font-family="Times,serif" font-size="14.00" style="">Niyamas</text>
+    </g>
+    <!-- a0&#45;&#45;b1 -->
+    <g id="edge1" class="edge" data-name="a0--b1">
+    
+    <path fill="none" stroke="black" d="M152.11,-524.24C201.14,-510.68 277.68,-489.5 322.63,-477.06" style=""/>
+    </g>
+    <!-- b0 -->
+    <g id="node2" class="node" pointer-events="visible" data-name="b0">
+    
+    <ellipse fill="white" stroke="white" cx="347" cy="-538" rx="37.71" ry="18" style=""/>
+    <text text-anchor="middle" x="347" y="-533.8" font-family="Times,serif" font-size="14.00" style="">Yamas</text>
+    </g>
+    <!-- b0&#45;&#45;b1 -->
+    <g id="edge20" class="edge" data-name="b0--b1">
+    
+    <path fill="none" stroke="black" d="M349.97,-519.7C351.83,-508.85 354.21,-494.92 356.07,-484.1" style=""/>
+    </g>
+    <!-- a1&#45;&#45;b1 -->
+    <g id="edge2" class="edge" data-name="a1--b1">
+    
+    <path fill="none" stroke="black" d="M182.28,-466C226,-466 269.72,-466 313.44,-466" style=""/>
+    </g>
+    <!-- a2 -->
+    <g id="node5" class="node" pointer-events="visible" data-name="a2">
+    
+    <ellipse fill="white" stroke="white" cx="99" cy="-394" rx="60.22" ry="18" style=""/>
+    <text text-anchor="middle" x="99" y="-389.8" font-family="Times,serif" font-size="14.00" style="">Samyak Vac</text>
+    </g>
+    <!-- a1&#45;&#45;a2 -->
+    <g id="edge14" class="edge" data-name="a1--a2">
+    
+    <path fill="none" stroke="black" d="M99,-447.7C99,-436.85 99,-422.92 99,-412.1" style=""/>
+    </g>
+    <!-- b2 -->
+    <g id="node6" class="node" pointer-events="visible" data-name="b2">
+    
+    <ellipse fill="white" stroke="white" cx="359" cy="-394" rx="35.34" ry="18" style=""/>
+    <text text-anchor="middle" x="359" y="-389.8" font-family="Times,serif" font-size="14.00" style="">Asana</text>
+    </g>
+    <!-- b1&#45;&#45;b2 -->
+    <g id="edge21" class="edge" data-name="b1--b2">
+    
+    <path fill="none" stroke="black" d="M359,-447.7C359,-436.85 359,-422.92 359,-412.1" style=""/>
+    </g>
+    <!-- a2&#45;&#45;b0 -->
+    <g id="edge3" class="edge" data-name="a2--b0">
+    
+    <path fill="none" stroke="black" d="M127.1,-410.32C176.16,-438.8 276.58,-497.11 322.77,-523.93" style=""/>
+    </g>
+    <!-- a3 -->
+    <g id="node7" class="node" pointer-events="visible" data-name="a3">
+    
+    <ellipse fill="white" stroke="white" cx="99" cy="-322" rx="82.77" ry="18" style=""/>
+    <text text-anchor="middle" x="99" y="-317.8" font-family="Times,serif" font-size="14.00" style="">Samyak Karmanta</text>
+    </g>
+    <!-- a2&#45;&#45;a3 -->
+    <g id="edge15" class="edge" data-name="a2--a3">
+    
+    <path fill="none" stroke="black" d="M99,-375.7C99,-364.85 99,-350.92 99,-340.1" style=""/>
+    </g>
+    <!-- b3 -->
+    <g id="node8" class="node" pointer-events="visible" data-name="b3">
+    
+    <ellipse fill="white" stroke="white" cx="368" cy="-322" rx="53.87" ry="18" style=""/>
+    <text text-anchor="middle" x="368" y="-317.8" font-family="Times,serif" font-size="14.00" style="">Prayayama</text>
+    </g>
+    <!-- b2&#45;&#45;b3 -->
+    <g id="edge22" class="edge" data-name="b2--b3">
+    
+    <path fill="none" stroke="black" d="M361.22,-375.7C362.62,-364.85 364.41,-350.92 365.8,-340.1" style=""/>
+    </g>
+    <!-- a3&#45;&#45;b0 -->
+    <g id="edge4" class="edge" data-name="a3--b0">
+    
+    <path fill="none" stroke="black" d="M119.32,-339.7C166.64,-380.92 283.57,-482.76 328.76,-522.12" style=""/>
+    </g>
+    <!-- a4 -->
+    <g id="node9" class="node" pointer-events="visible" data-name="a4">
+    
+    <ellipse fill="white" stroke="white" cx="100" cy="-250" rx="66.03" ry="18" style=""/>
+    <text text-anchor="middle" x="100" y="-245.8" font-family="Times,serif" font-size="14.00" style="">Samyak Ajiva</text>
+    </g>
+    <!-- a3&#45;&#45;a4 -->
+    <g id="edge16" class="edge" data-name="a3--a4">
+    
+    <path fill="none" stroke="black" d="M99.25,-303.7C99.4,-292.85 99.6,-278.92 99.76,-268.1" style=""/>
+    </g>
+    <!-- b4 -->
+    <g id="node10" class="node" pointer-events="visible" data-name="b4">
+    
+    <ellipse fill="white" stroke="white" cx="368" cy="-250" rx="52.15" ry="18" style=""/>
+    <text text-anchor="middle" x="368" y="-245.8" font-family="Times,serif" font-size="14.00" style="">Pratyahara</text>
+    </g>
+    <!-- b3&#45;&#45;b4 -->
+    <g id="edge23" class="edge" data-name="b3--b4">
+    
+    <path fill="none" stroke="black" d="M368,-303.7C368,-292.85 368,-278.92 368,-268.1" style=""/>
+    </g>
+    <!-- a4&#45;&#45;b0 -->
+    <g id="edge5" class="edge" data-name="a4--b0">
+    
+    <path fill="none" stroke="black" d="M115.33,-267.87C159.94,-319.89 289.31,-470.73 332.65,-521.27" style=""/>
+    </g>
+    <!-- a5 -->
+    <g id="node11" class="node" pointer-events="visible" data-name="a5">
+    
+    <ellipse fill="white" stroke="white" cx="100" cy="-178" rx="81.63" ry="18" style=""/>
+    <text text-anchor="middle" x="100" y="-173.8" font-family="Times,serif" font-size="14.00" style="">Samyak Vyayama</text>
+    </g>
+    <!-- a4&#45;&#45;a5 -->
+    <g id="edge17" class="edge" data-name="a4--a5">
+    
+    <path fill="none" stroke="black" d="M100,-231.7C100,-220.85 100,-206.92 100,-196.1" style=""/>
+    </g>
+    <!-- b5 -->
+    <g id="node12" class="node" pointer-events="visible" data-name="b5">
+    
+    <ellipse fill="white" stroke="white" cx="383" cy="-178" rx="43.99" ry="18" style=""/>
+    <text text-anchor="middle" x="383" y="-173.8" font-family="Times,serif" font-size="14.00" style="">Dharana</text>
+    </g>
+    <!-- b4&#45;&#45;b5 -->
+    <g id="edge24" class="edge" data-name="b4--b5">
+    
+    <path fill="none" stroke="black" d="M371.71,-231.7C374.03,-220.85 377.02,-206.92 379.33,-196.1" style=""/>
+    </g>
+    <!-- a5&#45;&#45;b1 -->
+    <g id="edge7" class="edge" data-name="a5--b1">
+    
+    <path fill="none" stroke="black" d="M116,-195.79C162.59,-247.6 297.73,-397.87 343.57,-448.85" style=""/>
+    </g>
+    <!-- a6 -->
+    <g id="node13" class="node" pointer-events="visible" data-name="a6">
+    
+    <ellipse fill="white" stroke="white" cx="108" cy="-106" rx="68.92" ry="18" style=""/>
+    <text text-anchor="middle" x="108" y="-101.8" font-family="Times,serif" font-size="14.00" style="">Samyak Smriti</text>
+    </g>
+    <!-- a5&#45;&#45;a6 -->
+    <g id="edge18" class="edge" data-name="a5--a6">
+    
+    <path fill="none" stroke="black" d="M101.98,-159.7C103.22,-148.85 104.81,-134.92 106.05,-124.1" style=""/>
+    </g>
+    <!-- b6 -->
+    <g id="node14" class="node" pointer-events="visible" data-name="b6">
+    
+    <ellipse fill="white" stroke="white" cx="384" cy="-106" rx="41.14" ry="18" style=""/>
+    <text text-anchor="middle" x="384" y="-101.8" font-family="Times,serif" font-size="14.00" style="">Dhyana</text>
+    </g>
+    <!-- b5&#45;&#45;b6 -->
+    <g id="edge25" class="edge" data-name="b5--b6">
+    
+    <path fill="none" stroke="black" d="M383.25,-159.7C383.4,-148.85 383.6,-134.92 383.76,-124.1" style=""/>
+    </g>
+    <!-- a6&#45;&#45;b2 -->
+    <g id="edge8" class="edge" data-name="a6--b2">
+    
+    <path fill="none" stroke="black" d="M123.58,-123.87C168.91,-175.89 300.37,-326.73 344.42,-377.27" style=""/>
+    </g>
+    <!-- a6&#45;&#45;b3 -->
+    <g id="edge9" class="edge" data-name="a6--b3">
+    
+    <path fill="none" stroke="black" d="M129.03,-123.47C178.02,-164.17 299.23,-264.87 347.6,-305.05" style=""/>
+    </g>
+    <!-- a7 -->
+    <g id="node15" class="node" pointer-events="visible" data-name="a7">
+    
+    <ellipse fill="white" stroke="white" cx="104" cy="-34" rx="78.21" ry="18" style=""/>
+    <text text-anchor="middle" x="104" y="-29.8" font-family="Times,serif" font-size="14.00" style="">Samyak Samadhi</text>
+    </g>
+    <!-- a6&#45;&#45;a7 -->
+    <g id="edge19" class="edge" data-name="a6--a7">
+    
+    <path fill="none" stroke="black" d="M107.01,-87.7C106.39,-76.85 105.6,-62.92 104.98,-52.1" style=""/>
+    </g>
+    <!-- b7 -->
+    <g id="node16" class="node" pointer-events="visible" data-name="b7">
+    
+    <ellipse fill="white" stroke="white" cx="368" cy="-34" rx="44.66" ry="18" style=""/>
+    <text text-anchor="middle" x="368" y="-29.8" font-family="Times,serif" font-size="14.00" style="">Samadhi</text>
+    </g>
+    <!-- b6&#45;&#45;b7 -->
+    <g id="edge26" class="edge" data-name="b6--b7">
+    
+    <path fill="none" stroke="black" d="M380.04,-87.7C377.56,-76.85 374.38,-62.92 371.91,-52.1" style=""/>
+    </g>
+    <!-- a7&#45;&#45;b4 -->
+    <g id="edge11" class="edge" data-name="a7--b4">
+    
+    <path fill="none" stroke="black" d="M125.72,-51.77C175.7,-92.67 298.3,-192.97 347.28,-233.05" style=""/>
+    </g>
+    <!-- a7&#45;&#45;b5 -->
+    <g id="edge12" class="edge" data-name="a7--b5">
+    
+    <path fill="none" stroke="black" d="M136.35,-50.7C191.62,-79.22 303.27,-136.85 355.23,-163.67" style=""/>
+    </g>
+    <!-- a7&#45;&#45;b6 -->
+    <g id="edge10" class="edge" data-name="a7--b6">
+    
+    <path fill="none" stroke="black" d="M155.67,-47.92C211.86,-61.97 300.13,-84.03 348.82,-96.21" style=""/>
+    </g>
+    <!-- a7&#45;&#45;b7 -->
+    <g id="edge6" class="edge" data-name="a7--b7">
+    
+    <path fill="none" stroke="black" d="M182.63,-34C229.46,-34 276.28,-34 323.11,-34" style=""/>
+    </g>
+    </g>
+    </svg>

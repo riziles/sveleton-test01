@@ -3,15 +3,19 @@
 
 	import Flowchart from './Flowchart.svelte'
 
+	// import om from '$lib/assets/Aum_Om_black.svg'
+
 	import { Modal, modalStore } from '@skeletonlabs/skeleton';
 
+	let wordDict = [{id:'node1',title: 'Right View', text:'Right View is understanding the Four Noble Truths'}]
 
-	function triggerAlert() {
+
+	function triggerAlert(title, text) {
 		const alert = {
 			type: 'alert',
-			title: 'Example Alert',
-			body: 'This is an example modal.',
-			image: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Aum_Om_black.svg',
+			title: title,
+			body: text,
+			// image: om,
 			// Optionally override buttont text
 			buttonTextCancel: 'Got it!'
 		};
@@ -20,9 +24,10 @@
 	import { onMount } from 'svelte';
 
 onMount(() => {
-	  
-	document.getElementById('node2').addEventListener('click', triggerAlert)
-		
+	
+	wordDict.forEach((item, index) => {
+	document.getElementById(item.id).addEventListener('click', () => triggerAlert(item.title, item.text))
+})
 });
   
 
@@ -42,13 +47,14 @@ onMount(() => {
 
 	</div>
 
+
 	<style lang="postcss">
 		figure {
 			@apply flex relative flex-col;
 		}
 		figure img,
 		.img-bg {
-			@apply w-full md:h-full;
+			@apply w-full md:h-full opacity-50;
 		}
 		.img-bg {
 			@apply bg-gradient-to-r from-primary-300 to-warning-300;
@@ -57,8 +63,19 @@ onMount(() => {
 		}
 		@keyframes pulse {
 			50% {
-				transform: scale(1.5);
+				transform: scale(0.5);
 			}
 		}
+	
+		.cluster {@apply opacity-20 text-white}
+
+		.edge {@apply border-green-50}
+
+
+		
+
 	</style>
+
+
+
 </div>

@@ -7,14 +7,14 @@
 	import Hamburger from './Hamburger.svelte';
 
 	let open = true;
-	$: sidebarHidden = open?"":"hidden";
+	$: sidebarHidden = open?" ":"hidden lg:block";
 </script>
 
 <!-- App Shell -->
-<AppShell slotSidebarLeft="bg-surface-500/5 w-56 p-4">
+<AppShell slotSidebarLeft="bg-surface-500/5 p-4" slotHeader="o-10">
 	<svelte:fragment slot="sidebarLeft">
 		<!-- Insert the list: -->
-		<div id="sidebar-left" class="{sidebarHidden}">
+		<div id="sidebar-left" class={sidebarHidden}>
 			<nav class="list-nav">
 				<ul>
 					<li><a href="/">Home</a></li>
@@ -26,19 +26,23 @@
 	</svelte:fragment>
 
 	<svelte:fragment slot="header">
+		
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
 				<Hamburger bind:open/>
+				
 			</svelte:fragment>
 
-			<h1>Title</h1>
+			<h1>Comparing Yoga and Buddhism</h1>
 
 			<svelte:fragment slot="trail">
 				<LightSwitch />
 			</svelte:fragment>
 		</AppBar>
+
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
 </AppShell>
+

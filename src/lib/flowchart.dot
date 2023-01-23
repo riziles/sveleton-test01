@@ -4,8 +4,13 @@ bgcolor="transparent";
   newrank=true;
   splines = false
 
-  node [style=filled,color=white];
+  node [style=filled,color="#bdbdbd"];
+  edge [style=filled,color="#272ad7"];
  
+{
+  rank = same; 
+  alabel[color=black,fontcolor=white]; 
+  blabel[color=black,fontcolor=white]; }
 {
   rank = same; a0; b0; }
 {
@@ -24,8 +29,8 @@ bgcolor="transparent";
   rank = same; a7; b7; }
 
   a0 -- b1;
-   a1 -- b1;
-   a2 -- b0;
+  a1 -- b1;
+  a2 -- b0;
   a3 -- b0;
   a4 -- b0;
   a7 -- b7;
@@ -36,24 +41,26 @@ bgcolor="transparent";
   a7 -- b4;
   a7 -- b5;
 
-
-
   subgraph cluster_0 {
-    style=filled;
-    color="#6388cc";
-    node [style=filled,color=white];
+    style=rounded;
+    bgcolor="transparent"
+    color="#81819c";
+    alabel -- a0;
     a0 -- a1 -- a2 -- a3 -- a4 -- a5 -- a6 -- a7;
-    label = "Buddha's Eightfold Path";
+
   };
 
   subgraph cluster_1 {
-    style=filled;
-    color="#cd96d9";
+    style=rounded;
+    bgcolor="transparent"
+    color="#858597";
     node [style=filled,color=white];
+    blabel -- b0
     b0 -- b1 -- b2 -- b3 -- b4 -- b5 -- b6 -- b7;
-    label = "Eight Limbs of Yoga";
   }  ;
   
+  alabel [label="Buddha's Eightfold Path"]
+  blabel [label="Eight Limbs of Yoga"]
   a0 [label="Samyak Drusti"]
   a1 [label="Samyak Samkalpa"]
   a2 [label="Samyak Vac"]

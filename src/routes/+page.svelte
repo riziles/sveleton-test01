@@ -40,7 +40,7 @@ onMount(() => {
 	<div class="space-y-10 text-center h-full">
 		<!-- Animated Logo -->
 		<figure class="h-full">
-			<section class="img-bg" />
+			<!-- <section class="img-bg" /> -->
 			<Flowchart />
 		</figure>
 
@@ -54,7 +54,7 @@ onMount(() => {
 		}
 		figure img,
 		.img-bg {
-			@apply w-full md:h-full opacity-50;
+			@apply w-full md:h-full opacity-10;
 		}
 		.img-bg {
 			@apply bg-gradient-to-r from-primary-300 to-warning-300;
@@ -63,16 +63,10 @@ onMount(() => {
 		}
 		@keyframes pulse {
 			50% {
-				transform: scale(0.5);
+				transform: scale(1.25);
 			}
 		}
-	
-		.cluster {@apply opacity-20 text-white}
 
-		.edge {@apply border-green-50}
-
-
-		
 
 	</style>
 

@@ -4,13 +4,13 @@ bgcolor="transparent";
   newrank=true;
   splines = false
 
-  node [style=filled,color="#bdbdbd"];
-  edge [style=filled,color="#272ad7"];
+  node [style="filled,rounded",color="#bdbdbd",fontsize="18pt"];
+  edge [style=dashed,color="#5d5fb8"];
  
 {
   rank = same; 
-  alabel[color=black,fontcolor=white]; 
-  blabel[color=black,fontcolor=white]; }
+  alabel[color="#4a4a4a",fontcolor=white,shape=box,fontsize="20pt"]; 
+  blabel[color="#4a4a4a",fontcolor=white,shape=box,fontsize="20pt"]; }
 {
   rank = same; a0; b0; }
 {
@@ -45,6 +45,7 @@ bgcolor="transparent";
     style=rounded;
     bgcolor="transparent"
     color="#81819c";
+    edge [style="invis"];
     alabel -- a0;
     a0 -- a1 -- a2 -- a3 -- a4 -- a5 -- a6 -- a7;
 
@@ -54,6 +55,7 @@ bgcolor="transparent";
     style=rounded;
     bgcolor="transparent"
     color="#858597";
+    edge [style="invis"];
     node [style=filled,color=white];
     blabel -- b0
     b0 -- b1 -- b2 -- b3 -- b4 -- b5 -- b6 -- b7;

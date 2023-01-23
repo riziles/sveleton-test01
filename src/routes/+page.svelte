@@ -2,13 +2,11 @@
 <script>
 
 	import Flowchart from './Flowchart.svelte'
+	import {wordDict} from './snippets/snippets'
 
 	// import om from '$lib/assets/Aum_Om_black.svg'
 
 	import { Modal, modalStore } from '@skeletonlabs/skeleton';
-
-	let wordDict = [{id:'node1',title: 'Right View', text:'Right View is understanding the Four Noble Truths'}]
-
 
 	function triggerAlert(title, text) {
 		const alert = {
@@ -66,6 +64,8 @@ onMount(() => {
 				transform: scale(1.25);
 			}
 		}
+
+		.node {@apply cursor-pointer}
 
 
 	</style>

@@ -133,6 +133,42 @@ The Yoga Sutras of Patanjali translated by Charles Johnston
 </a>
 `
 
+
+let dharana = `
+<blockquote>
+The binding of the perceiving consciousness to a certain region is attention dharana.
+</blockquote>
+<br />
+<a href="https://www.gutenberg.org/cache/epub/2526/pg2526-images.html">
+The Yoga Sutras of Patanjali translated by Charles Johnston
+</a>
+`
+
+let dhyana = `
+<blockquote>
+A prolonged holding of the perceiving consciousness in that region is dhyana.
+</blockquote>
+<br />
+<a href="https://www.gutenberg.org/cache/epub/2526/pg2526-images.html">
+The Yoga Sutras of Patanjali translated by Charles Johnston
+</a>
+`
+
+let samadhi = `
+<blockquote>
+The perceiving consciousness is wholly given to illuminating essential meaning
+and is freed from the sense of separateness and personality.
+</blockquote>
+<br />
+<a href="https://www.gutenberg.org/cache/epub/2526/pg2526-images.html">
+The Yoga Sutras of Patanjali translated by Charles Johnston
+</a>
+`
+
+
+
+
+
 ;
 
 export const wordDict = [
@@ -147,7 +183,10 @@ export const wordDict = [
     {id:'node11',title: 'Right Livelihood', text:rightLivelihood},
     {id:'node12',title: 'Right Withdrawal', text:pratyahara},
     {id:'node13',title: 'Right Effort', text:rightEffort},
+    {id:'node14',title: 'Right Attention', text:dharana},
     {id:'node15',title: 'Right Mindfulness', text:rightMindfulness},
-    {id:'node17',title: 'Right Meditation', text:rightMeditation}
+    {id:'node16',title: 'Right Zen', text:dhyana},
+    {id:'node17',title: 'Right Meditation', text:rightMeditation},
+    {id:'node18',title: 'Right Zen', text:samadhi}
 
 ]

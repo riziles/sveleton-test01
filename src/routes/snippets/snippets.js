@@ -11,12 +11,12 @@ The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
 `;
 
 let rightView = 
-'<blockquote>And what is right view? Knowledge with regard to stress, ' 
+'<blockquote>What is right view? Knowledge with regard to stress, ' 
 + 'knowledge with regard to the origination of stress, knowledge with '
 + 'regard to the cessation of stress, knowledge with regard to the way of ' 
-+ 'practice leading to the cessation of stress: This is called right view. </blockquote> <br />'
++ 'practice leading to the cessation of stress.</blockquote> '
 + '<a href="https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html">'
-+ 'The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu</a>'
++ 'The Great Frames of Reference</a>'
 
 let rightSpeech = `
 <blockquote>
@@ -30,7 +30,8 @@ The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
 
 let rightAction = `
 <blockquote>
-And what is right action? Abstaining from taking life, from stealing, & from sexual intercourse. This is called right action.</blockquote>
+And what is right action? Abstaining from taking life, from stealing, & from sexual intercourse. This is called right action.
+</blockquote>
 <br />
 <a href="https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html">
 The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
@@ -40,6 +41,28 @@ The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
 let rightLivelihood = `
 <blockquote>
 And what is right livelihood? There is the case where a disciple of the noble ones, having abandoned dishonest livelihood, keeps his life going with right livelihood: This is called right livelihood.
+</blockquote>
+<br />
+<a href="https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html">
+The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
+</a>
+`;
+
+let rightEffort = `
+<blockquote>
+A disciple of the noble ones generates desire, endeavors, arouses persistence, upholds & exerts his intent for the sake of skillfull qualities.
+</blockquote>
+<br />
+<a href="https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html">
+The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
+</a>
+`;
+
+let rightMindfulness = `
+<blockquote>
+A monk remains focused on the body, on feelings, on the mind and on mental qualities in and of themselves, ardent, alert, and mindful, 
+putting aside greed and distress with reference to the world.
+</blockquote>
 <br />
 <a href="https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html">
 The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
@@ -75,6 +98,8 @@ export const wordDict = [
     {id:'node6',title: 'Right Effort', text:niyamas},
     {id:'node7',title: 'Right Speech', text:rightSpeech},
     {id:'node9',title: 'Right Action', text:rightAction},
-    {id:'node11',title: 'Right Livelihood', text:rightLivelihood}
+    {id:'node11',title: 'Right Livelihood', text:rightLivelihood},
+    {id:'node13',title: 'Right Effort', text:rightEffort},
+    {id:'node15',title: 'Right Mindfulness', text:rightMindfulness}
 
 ]

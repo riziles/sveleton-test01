@@ -223,6 +223,7 @@ ${validate_component(AppShell, "AppShell").$$render(
         sidebarLeft: () => {
           return `
 		<div id="${"sidebar-left"}"${add_attribute("class", sidebarHidden, 0)}><nav class="${"list-nav"}"><ul><li><a href="${"/"}">Home</a></li>
+					<li><a href="${"/eightfold"}">Buddha&#39;s <br> Eightfold Path</a></li>
 					<li><a href="${"/about"}">About</a></li></ul></nav></div>
 		
 	`;

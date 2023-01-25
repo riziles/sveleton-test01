@@ -51,6 +51,14 @@
       "_index2.js"
     ]
   },
+  "src/routes/eightfold/+page.svx": {
+    "file": "entries/pages/eightfold/_page.svx.js",
+    "src": "src/routes/eightfold/+page.svx",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ]
+  },
   ".svelte-kit/generated/server-internal.js": {
     "file": "internal.js",
     "src": ".svelte-kit/generated/server-internal.js",

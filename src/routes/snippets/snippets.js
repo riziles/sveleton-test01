@@ -102,8 +102,8 @@ The Yoga Sutras of Patanjali translated by Charles Johnston
 
 let asana = `
 <blockquote>
-Right poise must be firm and without strain. Right poise is to be gained by steady and temperate effort, and by setting the heart upon the everlasting.
-The fruit of right poise is the strength to resist the shocks of infatuation or sorrow.
+Right poise must be firm and without strain. 
+Right poise is to be gained by steady and temperate effort, and by setting the heart upon the everlasting.
 </blockquote>
 <br />
 <a href="https://www.gutenberg.org/cache/epub/2526/pg2526-images.html">
@@ -187,6 +187,6 @@ export const wordDict = [
     {id:'node15',title: 'Right Mindfulness', text:rightMindfulness},
     {id:'node16',title: 'Right Zen', text:dhyana},
     {id:'node17',title: 'Right Meditation', text:rightMeditation},
-    {id:'node18',title: 'Right Zen', text:samadhi}
+    {id:'node18',title: 'Right Meditation', text:samadhi}
 
 ]

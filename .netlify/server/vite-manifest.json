@@ -46,6 +46,11 @@
     "src": "src/routes/eightfold/+layout.js",
     "isEntry": true
   },
+  "src/routes/eightlimbs/+layout.js": {
+    "file": "entries/pages/eightlimbs/_layout.js",
+    "src": "src/routes/eightlimbs/+layout.js",
+    "isEntry": true
+  },
   "src/routes/+page.svelte": {
     "file": "entries/pages/_page.svelte.js",
     "src": "src/routes/+page.svelte",
@@ -67,6 +72,14 @@
   "src/routes/eightfold/+page.svelte": {
     "file": "entries/pages/eightfold/_page.svelte.js",
     "src": "src/routes/eightfold/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "src/routes/eightlimbs/+page.svelte": {
+    "file": "entries/pages/eightlimbs/_page.svelte.js",
+    "src": "src/routes/eightlimbs/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index2.js"

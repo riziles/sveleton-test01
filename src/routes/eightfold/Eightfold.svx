@@ -1,13 +1,9 @@
 
-
-<article class="prose p-4 lg:prose-xl dark:prose-invert prose-li:text-blue ">
-
-
 ## Buddha's Eightfold Path
 
 [The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu](https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html)
 
-And what is right view? Knowledge with regard to stress, knowledge with regard to the origination of stress, knowledge with regard to the cessation of stress, knowledge with regard to the way of practice leading to the cessation of stress: This is called right view.
+"And what is right view? Knowledge with regard to stress, knowledge with regard to the origination of stress, knowledge with regard to the cessation of stress, knowledge with regard to the way of practice leading to the cessation of stress: This is called right view.
 
 "And what is right resolve? Aspiring to renunciation, to freedom from ill will, to harmlessness: This is called right resolve.
 
@@ -24,5 +20,3 @@ And what is right view? Knowledge with regard to stress, knowledge with regard t
 "And what is right concentration? There is the case where a monk -- quite withdrawn from sensuality, withdrawn from unskillful (mental) qualities -- enters & remains in the first jhana: rapture & pleasure born from withdrawal, accompanied by directed thought & evaluation. With the stilling of directed thought & evaluation, he enters & remains in the second jhana: rapture & pleasure born of composure, unification of awareness free from directed thought & evaluation -- internal assurance. With the fading of rapture he remains in equanimity, mindful & alert, physically sensitive of pleasure. He enters & remains in the third jhana, of which the Noble Ones declare, 'Equanimous & mindful, he has a pleasurable abiding.' With the abandoning of pleasure & pain -- as with the earlier disappearance of elation & distress -- he enters & remains in the fourth jhana: purity of equanimity & mindfulness, neither pleasure nor pain. This is called right concentration.
 
 [The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu](https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html)
-
-</article>

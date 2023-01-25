@@ -19,6 +19,7 @@
 				<ul>
 					<li><a href="/">Home</a></li>
 					<li><a href="/eightfold">Buddha's <br /> Eightfold Path</a></li>
+					<li><a href="/eightlimbs">Eight Limbs <br /> of Yoga</a></li>
 					<li><a href="/about">About</a></li>
 				</ul>
 			</nav>

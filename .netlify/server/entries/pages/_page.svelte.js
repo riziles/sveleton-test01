@@ -167,7 +167,7 @@ ${validate_component(Modal, "Modal").$$render($$result, {}, {}, {})}
 
 
 <div class="${"container h-full mx-auto flex justify-center items-center"}"><div class="${"space-y-10 text-center h-full"}">
-		<figure class="${"h-full"}">
+		<figure class="${"h-full"}"><section class="${"img-bg"}"></section>
 			${validate_component(Flowchart, "Flowchart").$$render($$result, {}, {}, {})}</figure></div>
 
 
@@ -178,8 +178,9 @@ ${validate_component(Modal, "Modal").$$render($$result, {}, {}, {})}
 }
 		figure img,
 		.img-bg {
+			height: 100%;
 			width: 100%;
-			opacity: 0.1;
+			opacity: 0.6;
 }
 		@media (min-width: 768px) {
 			figure img,
@@ -198,11 +199,11 @@ ${validate_component(Modal, "Modal").$$render($$result, {}, {}, {})}
 			border-radius: 9999px;
 			--tw-blur: blur(64px);
 			filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-			animation: pulse 20s cubic-bezier(0, 0, 0, 0.5) infinite;
+			animation: pulse 30s cubic-bezier(0, 0, 0, 0.5) infinite;
 }
 		@keyframes pulse {
 			50% {
-				transform: scale(1.25);
+				transform: scale(0.01);
 			}
 		}
 

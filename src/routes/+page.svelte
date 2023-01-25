@@ -38,7 +38,7 @@ onMount(() => {
 	<div class="space-y-10 text-center h-full">
 		<!-- Animated Logo -->
 		<figure class="h-full">
-			<!-- <section class="img-bg" /> -->
+			<section class="img-bg" />
 			<Flowchart />
 		</figure>
 
@@ -52,16 +52,16 @@ onMount(() => {
 		}
 		figure img,
 		.img-bg {
-			@apply w-full md:h-full opacity-10;
+			@apply w-full h-full md:h-full opacity-60;
 		}
 		.img-bg {
 			@apply bg-gradient-to-r from-primary-300 to-warning-300;
 			@apply absolute z-[-1] rounded-full blur-[64px];
-			animation: pulse 20s cubic-bezier(0, 0, 0, 0.5) infinite;
+			animation: pulse 30s cubic-bezier(0, 0, 0, 0.5) infinite;
 		}
 		@keyframes pulse {
 			50% {
-				transform: scale(1.25);
+				transform: scale(0.01);
 			}
 		}
 

@@ -1,5 +1,5 @@
-import { c as create_ssr_component } from "../../../chunks/index2.js";
-const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+import { c as create_ssr_component, v as validate_component } from "../../../chunks/index2.js";
+const Eightfold = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<article class="${"prose p-4 lg:prose-xl dark:prose-invert prose-li:text-blue "}"><h2>Buddha’s Eightfold Path</h2>
 <p><a href="${"https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html"}" rel="${"nofollow"}">The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu</a></p>
 <p>And what is right view? Knowledge with regard to stress, knowledge with regard to the origination of stress, knowledge with regard to the cessation of stress, knowledge with regard to the way of practice leading to the cessation of stress: This is called right view.</p>
@@ -11,6 +11,9 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 <p>“And what is right mindfulness? There is the case where a monk remains focused on the body in &amp; of itself — ardent, alert, &amp; mindful — putting aside greed &amp; distress with reference to the world. He remains focused on feelings in &amp; of themselves… the mind in &amp; of itself… mental qualities in &amp; of themselves — ardent, alert, &amp; mindful — putting aside greed &amp; distress with reference to the world. This is called right mindfulness.</p>
 <p>“And what is right concentration? There is the case where a monk — quite withdrawn from sensuality, withdrawn from unskillful (mental) qualities — enters &amp; remains in the first jhana: rapture &amp; pleasure born from withdrawal, accompanied by directed thought &amp; evaluation. With the stilling of directed thought &amp; evaluation, he enters &amp; remains in the second jhana: rapture &amp; pleasure born of composure, unification of awareness free from directed thought &amp; evaluation — internal assurance. With the fading of rapture he remains in equanimity, mindful &amp; alert, physically sensitive of pleasure. He enters &amp; remains in the third jhana, of which the Noble Ones declare, ‘Equanimous &amp; mindful, he has a pleasurable abiding.’ With the abandoning of pleasure &amp; pain — as with the earlier disappearance of elation &amp; distress — he enters &amp; remains in the fourth jhana: purity of equanimity &amp; mindfulness, neither pleasure nor pain. This is called right concentration.</p>
 <p><a href="${"https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html"}" rel="${"nofollow"}">The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu</a></p></article>`;
+});
+const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<article class="${"prose p-4 lg:prose-xl dark:prose-invert prose-li:text-blue "}">${validate_component(Eightfold, "EightFold").$$render($$result, {}, {}, {})}</article>`;
 });
 export {
   Page as default

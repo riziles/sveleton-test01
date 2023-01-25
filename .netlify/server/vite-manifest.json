@@ -17,7 +17,7 @@
       "_ProgressBar.svelte_svelte_type_style_lang.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-f7e6cbe9.css"
+      "_app/immutable/assets/_layout-367d9af0.css"
     ]
   },
   "src/routes/+layout.js": {
@@ -32,6 +32,19 @@
     "imports": [
       "_index2.js"
     ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "src/routes/eightfold/+layout.js": {
+    "file": "entries/pages/eightfold/_layout.js",
+    "src": "src/routes/eightfold/+layout.js",
+    "isEntry": true
   },
   "src/routes/+page.svelte": {
     "file": "entries/pages/_page.svelte.js",
@@ -51,9 +64,9 @@
       "_index2.js"
     ]
   },
-  "src/routes/eightfold/+page.svx": {
-    "file": "entries/pages/eightfold/_page.svx.js",
-    "src": "src/routes/eightfold/+page.svx",
+  "src/routes/eightfold/+page.svelte": {
+    "file": "entries/pages/eightfold/_page.svelte.js",
+    "src": "src/routes/eightfold/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index2.js"

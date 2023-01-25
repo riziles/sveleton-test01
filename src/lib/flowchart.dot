@@ -12,21 +12,21 @@ bgcolor="transparent";
   alabel[color="#4a4a4a",fontcolor=white,shape=box,fontsize="20pt"]; 
   blabel[color="#4a4a4a",fontcolor=white,shape=box,fontsize="20pt"]; }
 {
-  rank = same; a0; b0; }
+  rank = same; a0; b0[margin="0.6,0.0"]; }
 {
-  rank = same; a1; b1; }
+  rank = same; a1; b1[margin="0.6,0.0"]; }
 {
-  rank = same; a2; b2; }
+  rank = same; a2; b2[margin="0.6,0.0"]; }
 {
-  rank = same; a3; b3; }
+  rank = same; a3; b3[margin="0.4,0.0"]; }
 {
-  rank = same; a4; b4; }
+  rank = same; a4; b4[margin="0.4,0.0"]; }
 {
-  rank = same; a5; b5; }
+  rank = same; a5; b5[margin="0.6,0.0"]; }
 {
-  rank = same; a6; b6; }
+  rank = same; a6; b6[margin="0.7,0.0"]; }
 {
-  rank = same; a7; b7; }
+  rank = same; a7; b7[margin="0.6,0.0"]; }
 
   a0 -- b1;
   a1 -- b1;

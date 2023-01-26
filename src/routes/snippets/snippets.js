@@ -70,12 +70,7 @@ The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
 `;
 
 let rightMeditation = `
-The Four Jhanas
-<br />
-<br />
-<a href="https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html">
-The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
-</a>
+<a href="/eightfold#FourJhanas">The Four Dhyanas</a>
 `;
 
 let yamas = `
@@ -164,9 +159,6 @@ and is freed from the sense of separateness and personality.
 The Yoga Sutras of Patanjali translated by Charles Johnston
 </a>
 `
-
-
-
 
 
 ;

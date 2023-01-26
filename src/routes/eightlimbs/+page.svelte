@@ -5,7 +5,7 @@
 
 
 
-<article class="prose p-4 lg:prose-xl dark:prose-invert prose-li:text-blue ">
+<article class="prose lg:p-8 lg:prose-xl dark:prose-invert prose-li:text-blue ">
 
 <EightFold />
 </article>

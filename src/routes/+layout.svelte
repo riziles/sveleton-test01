@@ -11,7 +11,7 @@
 </script>
 
 <!-- App Shell -->
-<AppShell slotSidebarLeft="bg-surface-500/5 p-4" slotHeader="o-10">
+<AppShell slotSidebarLeft="bg-surface-500/5" slotHeader="o-10">
 	<svelte:fragment slot="sidebarLeft">
 		<!-- Insert the list: -->
 		<div id="sidebar-left" class={sidebarHidden}>

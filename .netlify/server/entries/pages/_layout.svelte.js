@@ -186,7 +186,7 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 ${validate_component(AppShell, "AppShell").$$render(
       $$result,
       {
-        slotSidebarLeft: "bg-surface-500/5 p-4",
+        slotSidebarLeft: "bg-surface-500/5",
         slotHeader: "o-10"
       },
       {},

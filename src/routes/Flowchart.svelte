@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0.00 0.00 559 698.89">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="30.00 0.00 529 698.89">
     <g id="graph0" class="graph" transform="translate(27.74435048938463,679.2056067403425) scale(0.8919285194200935)" data-name="G">
 
         <g id="clust10" class="cluster" data-name="cluster_0">

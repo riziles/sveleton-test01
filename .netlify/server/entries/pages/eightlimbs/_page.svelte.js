@@ -7,7 +7,7 @@ const Eightfold = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <p>Here, we enter on the more detailed practical teaching of Patanjali, with its sound and luminous good sense. And when we come to detail the means of Yoga, we may well be astonished at their simplicity. There is little in them that is mysterious. They are very familiar. The essence of the matter lies in carrying them out.</p>
 <ol start="${"29"}"><li>The eight means of Yoga are: the Commandments, the Rules, right Poise, right Control of the life-force, Withdrawal, Attention, Meditation, Contemplation.</li></ol>
 <p>These eight means are to be followed in their order, in the sense which will immediately be made clear. We can get a ready understanding of the first two by comparing them with the Commandments which must be obeyed by all good citizens, and the Rules which are laid on the members of religious orders. Until one has fulfilled the first, it is futile to concern oneself with the second. And so with all the means of Yoga. They must be taken in their order.</p>
-<ol start="${"30"}"><li>The Commandments are these: nom injury, truthfulness, abstaining from stealing, from impurity, from covetousness.</li></ol>
+<ol start="${"30"}"><li>The Commandments are these: non-injury, truthfulness, abstaining from stealing, from impurity, from covetousness.</li></ol>
 <p>These five precepts are almost exactly the same as the Buddhist Commandments: not to kill, not to steal, not to be guilty of incontinence, not to drink intoxicants, to speak the truth. Almost identical is St. Paul’s list: Thou shalt not commit adultery, thou shalt not kill, thou shalt not steal, thou shalt not covet. And in the same spirit is the answer made to the young map having great possessions, who asked, What shall I do to be saved? and received the reply: Keep the Commandments.</p>
 <p>This broad, general training, which forms and develops human character, must be accomplished to a very considerable degree, before there can be much hope of success in the further stages of spiritual life. First the psychical, and then the spiritual. First the man, then the angel. On this broad, humane and wise foundation does the system of Patanjali rest.</p>
 <ol start="${"31"}"><li>The Commandments, not limited to any race, place, time or occasion, universal, are the great obligation.</li></ol>
@@ -89,7 +89,7 @@ const Eightfold = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <p><a href="${"https://www.gutenberg.org/cache/epub/2526/pg2526-images.html"}" rel="${"nofollow"}">The Yoga Sutras of Patanjali translated by Charles Johnston</a></p>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<article class="${"prose p-4 lg:prose-xl dark:prose-invert prose-li:text-blue "}">${validate_component(Eightfold, "EightFold").$$render($$result, {}, {}, {})}</article>`;
+  return `<article class="${"prose lg:p-8 lg:prose-xl dark:prose-invert prose-li:text-blue "}">${validate_component(Eightfold, "EightFold").$$render($$result, {}, {}, {})}</article>`;
 });
 export {
   Page as default

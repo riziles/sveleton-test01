@@ -1,14 +1,13 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 <script>
-
-	import Flowchart from './Flowchart.svelte'
-	import {wordDict} from './snippets/snippets'
+	import Flowchart from './Flowchart.svelte';
+	import { wordDict } from './snippets/snippets';
 
 	// import om from '$lib/assets/Aum_Om_black.svg'
 
 	import { Modal, modalStore } from '@skeletonlabs/skeleton';
 
-	function triggerAlert(title, text) {
+	async function triggerAlert(title, text) {
 		const alert = {
 			type: 'alert',
 			title: title,
@@ -17,22 +16,22 @@
 			// Optionally override buttont text
 			buttonTextCancel: 'Got it!'
 		};
-		modalStore.trigger(alert);
+		await modalStore.trigger(alert);
+		// Modal.onMount(() => document.querySelector('modalBody').scrollTop = 0)
+		document.querySelector('.modal-body').scrollTop = 0;
 	}
 	import { onMount } from 'svelte';
 
-onMount(() => {
-	
-	wordDict.forEach((item, index) => {
-	document.getElementById(item.id).addEventListener('click', () => triggerAlert(item.title, item.text))
-})
-});
-  
-
+	onMount(() => {
+		wordDict.forEach((item, index) => {
+			document
+				.getElementById(item.id)
+				.addEventListener('click', () => triggerAlert(item.title, item.text));
+		});
+	});
 </script>
 
-<Modal />
-
+<Modal regionBody="max-h-96 overflow-auto" />
 
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center h-full">
@@ -41,10 +40,7 @@ onMount(() => {
 			<section class="img-bg" />
 			<Flowchart />
 		</figure>
-
-
 	</div>
-
 
 	<style lang="postcss">
 		figure {
@@ -65,11 +61,8 @@ onMount(() => {
 			}
 		}
 
-		.node {@apply cursor-pointer}
-
-
+		.node {
+			@apply cursor-pointer;
+		}
 	</style>
-
-
-
 </div>

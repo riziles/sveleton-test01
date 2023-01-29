@@ -1,7 +1,7 @@
 
 
 
-<div class="prose lg:p-8">
+<article class="prose lg:p-8 dark:prose-invert ">
 	<h1>Disclaimer</h1>
 	<p>There is no original work here, just standing on the shoulders of giants.</p>
 	<section class="flex space-x-2">
@@ -10,4 +10,4 @@
 		<a class="btn btn-filled-tertiary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
 	</section>
 	
-</div>
+</article>

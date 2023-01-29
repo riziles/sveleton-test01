@@ -5,6 +5,10 @@
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import Hamburger from './Hamburger.svelte';
+  import { afterNavigate } from "$app/navigation";
+  afterNavigate(() => {
+    document.getElementById("page").scrollTop = 0;
+  });
 
 	let open = true;
 	$: sidebarHidden = open?" ":"hidden lg:block";
@@ -20,6 +24,7 @@
 					<li><a href="/">Home</a></li>
 					<li><a href="/eightfold">Buddha's <br /> Eightfold Path</a></li>
 					<li><a href="/eightlimbs">Eight Limbs <br /> of Yoga</a></li>
+					<li><a href="/brahmaviharas">The Divine <br /> Abodes </a></li>
 					<li><a href="/about">About</a></li>
 				</ul>
 			</nav>

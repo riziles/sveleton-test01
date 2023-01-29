@@ -70,7 +70,25 @@ The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
 `;
 
 let rightMeditation = `
-<a href="/eightfold#FourJhanas">The Four Dhyanas</a>
+<blockquote>
+There is the case where a monk -- quite withdrawn from sensuality, withdrawn from unskillful (mental) qualities -- enters & remains in the first jhana: 
+rapture & pleasure born from withdrawal, accompanied by directed thought & evaluation. 
+
+With the stilling of directed thought & evaluation, he enters & remains in the second jhana: 
+rapture & pleasure born of composure, unification of awareness free from directed thought & evaluation -- internal assurance. 
+
+With the fading of rapture he remains in equanimity, mindful & alert, physically sensitive of pleasure. 
+He enters & remains in the third jhana, of which the Noble Ones declare, 'Equanimous & mindful, he has a pleasurable abiding.' 
+
+With the abandoning of pleasure & pain -- as with the earlier disappearance of elation & distress -- he enters & remains in the fourth jhana: 
+purity of equanimity & mindfulness, neither pleasure nor pain. This is called right concentration.
+</blockquote>
+
+<br />
+
+<a href="https://cdn.britannica.com/primary_source/gutenberg/PGCC_classics/canon/digha/dn22.html">
+The Great Frames of Reference Translated from the Pali by Thanissaro Bhikkhu
+</a>
 `;
 
 let yamas = `

@@ -163,13 +163,11 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `
 
 
-${validate_component(Modal, "Modal").$$render($$result, {}, {}, {})}
-
+${validate_component(Modal, "Modal").$$render($$result, { regionBody: "max-h-96 overflow-auto" }, {}, {})}
 
 <div class="${"container h-full mx-auto flex justify-center items-center"}"><div class="${"space-y-10 text-center h-full"}">
 		<figure class="${"h-full"}"><section class="${"img-bg"}"></section>
 			${validate_component(Flowchart, "Flowchart").$$render($$result, {}, {}, {})}</figure></div>
-
 
 	<style lang="${"postcss"}">figure {
 			position: relative;

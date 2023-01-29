@@ -17,7 +17,7 @@
       "_ProgressBar.svelte_svelte_type_style_lang.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-5bfd6f79.css"
+      "_app/immutable/assets/_layout-3fac1742.css"
     ]
   },
   "src/routes/+layout.js": {
@@ -40,6 +40,11 @@
     "imports": [
       "_index2.js"
     ]
+  },
+  "src/routes/brahmaviharas/+layout.js": {
+    "file": "entries/pages/brahmaviharas/_layout.js",
+    "src": "src/routes/brahmaviharas/+layout.js",
+    "isEntry": true
   },
   "src/routes/eightfold/+layout.js": {
     "file": "entries/pages/eightfold/_layout.js",
@@ -64,6 +69,14 @@
   "src/routes/about/+page.svelte": {
     "file": "entries/pages/about/_page.svelte.js",
     "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "src/routes/brahmaviharas/+page.svelte": {
+    "file": "entries/pages/brahmaviharas/_page.svelte.js",
+    "src": "src/routes/brahmaviharas/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index2.js"

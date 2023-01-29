@@ -1,5 +1,5 @@
 import { c as create_ssr_component, v as validate_component } from "../../../chunks/index2.js";
-const Eightfold = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+const Eightlimbs = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<h2>From Book II of the Yoga Sutras</h2>
 <p><a href="${"https://www.gutenberg.org/cache/epub/2526/pg2526-images.html"}" rel="${"nofollow"}">The Yoga Sutras of Patanjali translated by Charles Johnston</a></p>
 <p>…</p>
@@ -89,7 +89,7 @@ const Eightfold = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <p><a href="${"https://www.gutenberg.org/cache/epub/2526/pg2526-images.html"}" rel="${"nofollow"}">The Yoga Sutras of Patanjali translated by Charles Johnston</a></p>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<article class="${"prose lg:p-8 lg:prose-xl dark:prose-invert prose-li:text-blue "}">${validate_component(Eightfold, "EightFold").$$render($$result, {}, {}, {})}</article>`;
+  return `<article class="${"prose lg:p-8 lg:prose-xl dark:prose-invert prose-li:text-blue "}">${validate_component(Eightlimbs, "Eightlimbs").$$render($$result, {}, {}, {})}</article>`;
 });
 export {
   Page as default

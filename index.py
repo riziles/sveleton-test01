@@ -1,6 +1,7 @@
 from flask import Flask, send_from_directory, session, request, redirect, url_for, jsonify
 import os
 import sqlalchemy as sa
+from datetime import datetime, timedelta
 
 
 app = Flask(__name__)
@@ -23,7 +24,7 @@ def get_walked():
             schema = 'dbo',
             extend_existing=True
         )
-        query = sa.select(walked)
+        query = sa.select(sa.func.max(walked.c['date']))
         os.environ['PGOPTIONS'] = '-c statement_timeout=10'
         result = cnxn.execute(query) 
         output = result.fetchall()
@@ -32,7 +33,47 @@ def get_walked():
         
     md.bind.dispose()
     
-    return output
+    return output[0][0]
+
+def submit_walk(data):
+    constring = os.environ["DATABASE_URL"]
+    md = sa.MetaData(constring, schema='dbo')
+    
+    with md.bind.connect() as cnxn:
+    
+        os.environ['PGOPTIONS'] = '-c statement_timeout=10'
+        walked = sa.Table(
+            "walked",
+            md,
+            sa.Column("record_id", sa.Integer, primary_key=True),
+            sa.Column("distance", sa.Float, nullable=False),
+            sa.Column("date", sa.DateTime, nullable=False),
+            schema = 'dbo',
+            extend_existing=True
+        )
+        max_record_query = sa.select(sa.func.max(walked.c['record_id']))
+        max_record_result = cnxn.execute(max_record_query)
+        max_record = max_record_result.fetchall()
+        print(max_record)
+        if max_record[0][0]:
+            new_record = max_record[0][0] + 1
+        else:
+            new_record = 1
+        query = walked.insert(
+            {
+                'record_id':new_record,
+                'distance':data['walked'],
+                'date':datetime.now()
+            }
+        )
+        result = cnxn.execute(query) 
+        # output = result.fetchall()
+        print (result)
+        # cnxn.commit()
+        
+    md.bind.dispose()
+    
+    # return result
         
 @app.route('/login', methods=['GET', 'POST'])
 @app.route('/login.html', methods=['GET', 'POST'])
@@ -65,12 +106,19 @@ def secret():
 
 
 # Path for all the static files (compiled JS/CSS, etc.)
-@app.route("/fetchwalk")
+@app.route("/fetchwalk", methods=['GET', 'POST'])
 def fetchwalk():
     # if 'username' in session:
-    if session['username'] == '1118':
+    if session['username'] == '1118' and request.method == 'GET':
         output = get_walked()
         return jsonify(output)
+    elif session['username'] == '1118' and request.method == 'POST':
+        data = request.get_json()
+        submit_walk(data)
+        output2 = get_walked()
+        print(data)
+        return jsonify(output2)
+        
     else:
         return jsonify({'status':'not logged in'})
 

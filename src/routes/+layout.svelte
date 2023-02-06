@@ -7,17 +7,19 @@
 </script>
 
 <!-- App Shell -->
-<AppShell slotSidebarLeft="bg-surface-500/5 w-56 p-4">
+<AppShell slotSidebarLeft="bg-surface-500/5 md:w-56 md:p-4">
 
 	<svelte:fragment slot="sidebarLeft">
 		<!-- Insert the list: -->
-		<nav class="list-nav">
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/login">Login</a></li>
-				<li><a href="/secret.html">Secret</a></li>
-			</ul>
-		</nav>
+		<div class = "hidden md:block">
+			<nav class="list-nav">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/login">Login</a></li>
+					<li><a href="/secret.html">Secret</a></li>
+				</ul>
+			</nav>
+	  </div>
 		<!-- --- -->
 	</svelte:fragment>
 

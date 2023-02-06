@@ -21,3 +21,7 @@ def create_walked():
         if not md.bind.dialect.has_schema(md.bind, 'dbo'):
             md.bind.execute(sa.schema.CreateSchema('dbo'))
         walked.create(checkfirst=True)
+        
+    
+        
+    md.bind.dispose()

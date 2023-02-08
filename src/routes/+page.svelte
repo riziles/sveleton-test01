@@ -7,18 +7,14 @@
 
 	import { Modal, modalStore } from '@skeletonlabs/skeleton';
 
-	async function triggerAlert(title, text) {
+	function triggerAlert(title, text) {
 		const alert = {
 			type: 'alert',
 			title: title,
-			body: text,
-			// image: om,
-			// Optionally override buttont text
+			body: `<button class = "absolute outline-none"> </button>` + text,
 			buttonTextCancel: 'Got it!'
 		};
-		await modalStore.trigger(alert);
-		// Modal.onMount(() => document.querySelector('modalBody').scrollTop = 0)
-		document.querySelector('.modal-body').scrollTop = 0;
+		modalStore.trigger(alert);
 	}
 	import { onMount } from 'svelte';
 

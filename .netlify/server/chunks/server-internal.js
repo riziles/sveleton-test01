@@ -58,7 +58,7 @@ ${components[1] ? `${validate_component(components[0] || missing_component, "sve
 ${``}`;
 });
 set_paths({ "base": "", "assets": "" });
-set_version("1674979982719");
+set_version("1675830203295");
 const options = {
   csp: { "mode": "auto", "directives": { "upgrade-insecure-requests": false, "block-all-mixed-content": false }, "reportOnly": { "upgrade-insecure-requests": false, "block-all-mixed-content": false } },
   csrf_check_origin: true,
@@ -69,7 +69,7 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html >\n<html lang="en" class="dark">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\n		<meta name="viewport" content="width=device-width" />\n		' + head + '\n	</head>\n	<body data-theme="skeleton">\n		<div style="display: contents" class="h-full overflow-hidden">' + body + "</div>\n	</body>\n</html>\n",
+    app: ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html >\r\n<html lang="en" class="dark">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\r\n		<meta name="viewport" content="width=device-width" />\r\n		' + head + '\r\n	</head>\r\n	<body data-theme="skeleton">\r\n		<div style="display: contents" class="h-full overflow-hidden">' + body + "</div>\r\n	</body>\r\n</html>\r\n",
     error: ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
